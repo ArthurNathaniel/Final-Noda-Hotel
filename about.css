@@ -1,0 +1,198 @@
+
+
+.about p {
+    width: 80%;
+    text-align: center;
+    color: #333;
+    /* margin-right: 20px; */
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0 10%;
+
+}
+
+.about-images {
+	display: flex;
+	gap: 25px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-images img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 8px solid #fff;
+}
+
+.about-heading {
+    padding: 0 20px;
+}
+
+.about-heading p {
+    line-height: 1.8;
+    width: 90%;
+    color: #333;
+}
+
+.about-heading h1 {
+    font-family: 'Alike', serif;
+    color: #2e3f61;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.about-margin {
+    margin-bottom: 20px;
+}
+
+
+
+
+.two-us {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0 10%;
+
+}
+
+.two-images {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+.two-images img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 8px solid #fff;
+}
+
+.two-heading {
+    padding: 0 20px;
+    margin-left: 80px;
+}
+
+.two-heading p {
+    line-height: 1.8;
+    width: 90%;
+    color: #333;
+}
+
+.two-heading h1 {
+    font-family: 'Alike', serif;
+    color: #2e3f61;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.two-margin {
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .about-us {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -80px;
+
+    }
+
+    .about-heading {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-heading h1 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .about-heading p {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .about-images {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-images img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: none;
+    }
+
+    .about-margin {
+        padding-block: 20px;
+    }
+
+
+
+    .two-us {
+        display: block;
+        display: none;
+
+    }
+
+    .two-heading {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .two-heading h1 {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .two-heading p {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .two-images {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        display: none;
+      
+    }
+
+    .two-images img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: none;
+    }
+
+    .two-margin {
+        padding-block: 20px;
+        display: none;
+    }
+
+
+}
